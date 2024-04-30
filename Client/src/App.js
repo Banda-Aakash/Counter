@@ -142,7 +142,7 @@ const Counter = () => {
       <h2>Counter</h2>
       <p>My Count : {state.mycount}</p>
       <p>Count: {state.count}</p>
-      <button onClick={incrementCounter}>Increment</button>
+      <button onClick={incrementCounter} title='Increment button'>Increment</button>
       <button onClick={decrementCounter}>Decrement</button>
       <button onClick={() => navigate('/')}>Go to Home</button>
     </div>
